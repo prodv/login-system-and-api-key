@@ -16,10 +16,10 @@ Screenshots can be seen below.
 Login page
 -----------
 
-<img src="server-login.png" width="300" height="200">
+<img src="screenshots/server-login.png" width="300" height="200">
 
 
 Dashboard
 -----------
 
-<img src="dashboard.png" width="1000" height="300">
+<img src="screenshots/dashboard.png" width="1000" height="300">
