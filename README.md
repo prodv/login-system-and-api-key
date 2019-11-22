@@ -1,9 +1,5 @@
-## Simple Voting app using Ethereum blockchain
+## Login system and API key generation
 
-The user has to select a candidate and click on a button to vote.
+It was built using a [NodeJS package](https://github.com/braitsch/node-login).
 
-<img src="screenshots/first.png" width="1000">
-
-The list of candidates and the count of votes they have got can be seen below.
-
-<img src="screenshots/second.png" width="1000">
+The above package was installed locally and then the code was edited for **registration of user and login**. For **generating the api key** the code was added.
