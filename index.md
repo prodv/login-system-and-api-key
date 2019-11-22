@@ -1,9 +1,25 @@
-## Simple Voting app using Ethereum blockchain
+## Login system and API key generation
 
-The user has to select a candidate and click on a button to vote.
+It was built using a [NodeJS package](https://github.com/braitsch/node-login).
 
-<img src="screenshots/first.png" width="1000">
+The above package was installed locally and then the code was edited for **registration of user and login**. For **generating the api key** the code was added.
 
-This project uses Ethereum smart contract for building a simple voting process. Smart contract is created using **Remix IDE** and is deployed on a local blockchain network created using **Ganache CLI**. Interaction with the smart contract is done using **Web3** library through a simple user interface (client side app) as seen above. The list of candidates and the count of votes they have got can be seen below.
+User just need to put a username and password to register.
+After registration an API key was generated and assigned to the user.
 
-<img src="screenshots/second.png" width="1000">
+The username is encrypted using AES-256.
+API key is generated using SHA-256.
+Above data is stored in MongoDB.
+ 
+Screenshots can be seen below.
+
+Login page
+-----------
+
+<img src="server-login.png" width="300" height="200">
+
+
+Dashboard
+-----------
+
+<img src="dashboard.png" width="1000" height="300">
